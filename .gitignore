@@ -4,7 +4,18 @@ doc/
 Gliese/
 
 # files
-Doxyfile*API
+layer/Communication/Doxyfile_CM_API
+layer/DataType/Doxyfile_DataType_API
+layer/ExecutionLibrary/Doxyfile_Execution_API
+layer/GlieseLibrary/ODBC/Doxyfile_ODBC_API
+layer/GlieseTool/Doxyfile_ZT_API
+layer/Kernel/Doxyfile_Kernel_API
+layer/ServerCommunication/Doxyfile_ServerCommunication_API
+layer/ServerLibrary/Doxyfile_ServerLibrary_API
+layer/Session/Doxyfile_Session_API
+layer/SqlProcessor/Doxyfile_SqlProcessor_API
+layer/Standard/Doxyfile_Standard_API
+layer/StorageManager/Doxyfile_SM_API
 layer/Communication/dev/include/cmlRowStatusDef.h
 layer/ExecutionLibrary/dev/include/ellCursorDef.h
 layer/ExecutionLibrary/dev/include/ellSuppLogDef.h
