@@ -72,9 +72,9 @@ struct sqlca
 
 #ifndef SQLCA_NONE
 #ifdef   SQLCA_STORAGE_CLASS
-SQLCA_STORAGE_CLASS sqlca_t sqlca;
+extern SQLCA_STORAGE_CLASS sqlca_t sqlca;
 #else
-sqlca_t sqlca;
+extern sqlca_t sqlca;
 #endif
 #endif
 

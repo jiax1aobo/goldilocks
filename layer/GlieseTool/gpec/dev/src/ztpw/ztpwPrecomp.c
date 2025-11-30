@@ -32,7 +32,7 @@
  * @brief Gliese Embedded SQL in C precompiler write C code functions
  */
 
-stlChar gErrMsgBuffer[STL_MAX_ERROR_MESSAGE];
+extern stlChar gErrMsgBuffer[STL_MAX_ERROR_MESSAGE];
 
 
 /**

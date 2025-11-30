@@ -26,7 +26,7 @@
 extern dtlCharacterSet    gZtdDatabaseCharacterSet;
 extern stlBool            gZtdRunState;
 
-stlFile                   gZtdBadFile;
+extern stlFile                   gZtdBadFile;
 stlInt8                   gZtdEndian;
 SQLSMALLINT               gZtdColumnCount                        = 0;
 stlInt32                  gZtdReadBlockCount                     = 0;
