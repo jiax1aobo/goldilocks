@@ -22,8 +22,8 @@ ENDIF()
 ##################################################
 
 ADD_SUBDIRECTORY(${PRODUCT_LAYER_ODBC_DIR})
-ADD_SUBDIRECTORY(${PRODUCT_LAYER_JDBC_DIR})
-ADD_SUBDIRECTORY(esql)
+#ADD_SUBDIRECTORY(${PRODUCT_LAYER_JDBC_DIR})
+#ADD_SUBDIRECTORY(esql)
 #ADD_SUBDIRECTORY(${PRODUCT_LAYER_PYGLIESELIB_DIR})
 
 ##################################################
@@ -50,14 +50,14 @@ ADD_CUSTOM_TARGET( lintzl
                                 -I${PRODUCT_LAYER_EXECUTIONLIBRARY_DIR}/dev/include
                                 -I${PRODUCT_LAYER_SQLPROCESSOR_DIR}/dev/include
                                 -I${PRODUCT_LAYER_SESSION_DIR}/dev/include
-                                -I${PRODUCT_LAYER_SESSION_DIR}/dev/include
+                                # -I${PRODUCT_LAYER_SESSION_DIR}/dev/include
                                 -I${PRODUCT_LAYER_SERVERLIBRARY_DIR}/dev/include
                                 -I${PRODUCT_LAYER_ODBC_DIR}/dev/include
                                 -I${PRODUCT_LAYER_ODBC_DIR}/dev/src/include
                                 -I${PYTHON_INCLUDE_PATH}
-                                -I${PRODUCT_LAYER_PYGLIESELIB_DIR}/dev/src/include
-                                -I${PRODUCT_LAYER_GOLDILOCKSESQLLIB_DIR}/dev/include
-                                -I${PRODUCT_LAYER_GOLDILOCKSESQLLIB_DIR}/dev/src/include
+                                # -I${PRODUCT_LAYER_PYGLIESELIB_DIR}/dev/src/include
+                                # -I${PRODUCT_LAYER_GOLDILOCKSESQLLIB_DIR}/dev/include
+                                # -I${PRODUCT_LAYER_GOLDILOCKSESQLLIB_DIR}/dev/src/include
                                 $$file\;
                            done
                    )
