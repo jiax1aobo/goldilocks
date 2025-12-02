@@ -2,3 +2,5 @@
 cmake -S . -B . -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TARGET_HOST_TYPE=server -DCMAKE_BITS=64 -DBUILD_DOCUMENTATION=OFF
 # compile
 cmake --build .
+# install
+cmake --install .

@@ -1,0 +1,34 @@
+{
+	"files": [
+		{
+			"path": "layer/GlieseTool/glsnr/dev/src/ztlm/ztlmConf.c",
+			"bookmarks": [
+				{
+					"line": 571,
+					"column": 0,
+					"label": "根据属性值类型，设置内存的配置文件 gZtlConfig"
+				},
+				{
+					"line": 791,
+					"column": 37,
+					"label": "按照 gZtlmIniFormat 的顺序从配置文件获取属性值，配置文件没有则从环境变量获取，环境变量没有则设置为 gZtlmIniFormat 中的默认值"
+				}
+			]
+		},
+		{
+			"path": "layer/GlieseTool/glsnr/dev/src/ztlc/ztlc.c",
+			"bookmarks": [
+				{
+					"line": 40,
+					"column": 0,
+					"label": "/tmp/goldilocks-unix-glsnr.$TCP_PORT.$PID"
+				},
+				{
+					"line": 257,
+					"column": 11,
+					"label": "/tmp/goldilocks-unix-glsnr.$TCP_PORT"
+				}
+			]
+		}
+	]
+}
