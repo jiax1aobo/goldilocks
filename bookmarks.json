@@ -29,6 +29,26 @@
 					"label": "/tmp/goldilocks-unix-glsnr.$TCP_PORT"
 				}
 			]
+		},
+		{
+			"path": "layer/Standard/dev/src/stn/stnSockAddrUnix.c",
+			"bookmarks": [
+				{
+					"line": 162,
+					"column": 0,
+					"label": "看到这里"
+				}
+			]
+		},
+		{
+			"path": "Study.md",
+			"bookmarks": [
+				{
+					"line": 164,
+					"column": 0,
+					"label": "这里是检查剩下的 buffer 是否够 aBytes 的写入，不够就先把上次剩余的刷新（写入），然后更新 Cursor"
+				}
+			]
 		}
 	]
 }
