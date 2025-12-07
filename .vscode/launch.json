@@ -7,12 +7,30 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Glsnr Launch",
+            "program": "${workspaceFolder}/Gliese/home/bin/glsnr",
+            "args": [
+                "--start",
+                "--no-show-revision"
+            ],
+            "cwd": "${workspaceFolder}",
+            "preRunCommands": [
+                "settings set target.process.follow-fork-mode child",
+                "settings show target.process.follow-fork-mode"
+            ]
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Gsql-Net As Sysdba Launch",
             "program": "${workspaceFolder}/Gliese/home/bin/gsqlnet",
-            "args": ["sys","gliese","--as=sysdba","--silent"],
+            "args": [
+                "sys",
+                "gliese",
+                "--as=sysdba",
+                "--silent"
+            ],
             "cwd": "${workspaceFolder}"
         }
-
-
     ]
 }

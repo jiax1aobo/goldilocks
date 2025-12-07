@@ -5,6 +5,7 @@ Gliese/
 CMakeFiles/
 lib/
 .cache/
+compile_commands.json
 
 # files
 layer/Communication/Doxyfile_CM_API
