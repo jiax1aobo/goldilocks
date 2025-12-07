@@ -19,16 +19,16 @@ position           position
 |<----------------- write buffer ---------------->|
 |<-- packet hdr -->|<-- payload -->|
 |-------------------------------------------------|
-Begin:
+>>> Begin:
 ^                  ^                              ^
 write              write                          write
 start              protocol                       end
 position           position                       position
-Begin-Write:       ^                              ^
+>>> Begin-Write:   ^                              ^
 Cursor             cursor                         cursor
                    current                        end
                    position                       position
-End-Write:         ^               ^
+>>> End-Write:     ^               ^
 Buffer                             cursor         cursor
                                    curr           end
                                    pos            pos

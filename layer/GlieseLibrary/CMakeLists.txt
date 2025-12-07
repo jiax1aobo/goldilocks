@@ -30,35 +30,35 @@ ADD_SUBDIRECTORY(${PRODUCT_LAYER_ODBC_DIR})
 # SPLINT( make lintzl )
 ##################################################
 
-IF (UNIX)
+# IF (UNIX)
 
 # check python library
-INCLUDE (${CMAKE_ROOT}/Modules/FindPythonLibs.cmake)
+# INCLUDE (${CMAKE_ROOT}/Modules/FindPythonLibs.cmake)
 
-ADD_CUSTOM_TARGET( lintzl 
-                   COMMAND find */dev/src -name \"*.c\" | egrep -v "PythonWrapper" > lintfiles.txt
-                   COMMAND for file in `cat lintfiles.txt`\; 
-                           do  
-                              echo splint ... $$file\; 
-                              splint ${LINT_FLAGS} 
-                                -I${PRODUCT_LAYER_STANDARD_DIR}/dev/include
-                                -I${PRODUCT_LAYER_DATATYPE_DIR}/dev/include
-                                -I${PRODUCT_LAYER_COMMUNICATION_DIR}/dev/include
-                                -I${PRODUCT_LAYER_KERNEL_DIR}/dev/include
-                                -I${PRODUCT_LAYER_SERVERCOMMUNICATION_DIR}/dev/include
-                                -I${PRODUCT_LAYER_STORAGEMANAGER_DIR}/dev/include
-                                -I${PRODUCT_LAYER_EXECUTIONLIBRARY_DIR}/dev/include
-                                -I${PRODUCT_LAYER_SQLPROCESSOR_DIR}/dev/include
-                                -I${PRODUCT_LAYER_SESSION_DIR}/dev/include
+# ADD_CUSTOM_TARGET( lintzl 
+                  #  COMMAND find */dev/src -name \"*.c\" | egrep -v "PythonWrapper" > lintfiles.txt
+                  #  COMMAND for file in `cat lintfiles.txt`\; 
+                          #  do  
+                              # echo splint ... $$file\; 
+                              # splint ${LINT_FLAGS} 
+                              #   -I${PRODUCT_LAYER_STANDARD_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_DATATYPE_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_COMMUNICATION_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_KERNEL_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_SERVERCOMMUNICATION_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_STORAGEMANAGER_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_EXECUTIONLIBRARY_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_SQLPROCESSOR_DIR}/dev/include
+                              #   -I${PRODUCT_LAYER_SESSION_DIR}/dev/include
                                 # -I${PRODUCT_LAYER_SESSION_DIR}/dev/include
-                                -I${PRODUCT_LAYER_SERVERLIBRARY_DIR}/dev/include
-                                -I${PRODUCT_LAYER_ODBC_DIR}/dev/include
-                                -I${PRODUCT_LAYER_ODBC_DIR}/dev/src/include
-                                -I${PYTHON_INCLUDE_PATH}
+                                # -I${PRODUCT_LAYER_SERVERLIBRARY_DIR}/dev/include
+                                # -I${PRODUCT_LAYER_ODBC_DIR}/dev/include
+                                # -I${PRODUCT_LAYER_ODBC_DIR}/dev/src/include
+                                # -I${PYTHON_INCLUDE_PATH}
                                 # -I${PRODUCT_LAYER_PYGLIESELIB_DIR}/dev/src/include
                                 # -I${PRODUCT_LAYER_GOLDILOCKSESQLLIB_DIR}/dev/include
                                 # -I${PRODUCT_LAYER_GOLDILOCKSESQLLIB_DIR}/dev/src/include
-                                $$file\;
-                           done
-                   )
-ENDIF (UNIX)
+                                # $$file\;
+                          #  done
+                  #  )
+# ENDIF (UNIX)

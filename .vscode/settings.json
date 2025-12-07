@@ -1,0 +1,11 @@
+{
+    "cmake.automaticReconfigure": false,
+    "cmake.autoSelectActiveFolder": false,
+    "cmake.buildDirectory": "${workspaceFolder}",
+    "cmake.configureSettings": {
+        "CMAKE_BUILD_TYPE":"Debug",
+        "CMAKE_TARGET_HOST_TYPE":"server",
+        "CMAKE_BITS":64,
+        "BUILD_DOCUMENTATION":"OFF"
+    }
+}

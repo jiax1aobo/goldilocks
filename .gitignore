@@ -4,6 +4,7 @@ doc/
 Gliese/
 CMakeFiles/
 lib/
+.cache/
 
 # files
 layer/Communication/Doxyfile_CM_API
