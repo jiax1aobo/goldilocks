@@ -7,5 +7,6 @@
         "CMAKE_TARGET_HOST_TYPE":"server",
         "CMAKE_BITS":64,
         "BUILD_DOCUMENTATION":"OFF"
-    }
+    },
+    "terminal.integrated.suggest.enabled": false
 }

@@ -9,6 +9,16 @@
 					"label": "packet header 是 4 字节的 packet size + 4 字节 period"
 				}
 			]
+		},
+		{
+			"path": "layer/GlieseTool/glsnr/dev/src/ztlc/ztlcListen.c",
+			"bookmarks": [
+				{
+					"line": 1293,
+					"column": 0,
+					"label": "一秒轮询一次"
+				}
+			]
 		}
 	]
 }
