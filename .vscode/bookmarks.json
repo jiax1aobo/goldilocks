@@ -19,6 +19,36 @@
 					"label": "一秒轮询一次"
 				}
 			]
+		},
+		{
+			"path": "layer/GlieseTool/gsql/dev/src/ztqMain.c",
+			"bookmarks": [
+				{
+					"line": 1043,
+					"column": 24,
+					"label": "判断当前行是否为 行内注释 或 完整的单行块注释"
+				},
+				{
+					"line": 1060,
+					"column": 19,
+					"label": "如果行内以 -- 开头则直接返回 TRUE"
+				},
+				{
+					"line": 1074,
+					"column": 24,
+					"label": "如果行内有完整块注释 /* */ 则跳过注释继续判断"
+				},
+				{
+					"line": 1105,
+					"column": 12,
+					"label": "输入的当前行是否是以 \\ 开头的命令语句（区别于 SQL 语句）"
+				},
+				{
+					"line": 1415,
+					"column": 0,
+					"label": "只有识别到这几个命令时才继续扫描 SQL 语句"
+				}
+			]
 		}
 	]
 }
