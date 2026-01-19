@@ -8,5 +8,11 @@
         "CMAKE_BITS":64,
         "BUILD_DOCUMENTATION":"OFF"
     },
-    "terminal.integrated.suggest.enabled": false
+    "terminal.integrated.suggest.enabled": false,
+    "files.associations": {
+        ".l": "lex",
+        ".l.in": "lex",
+        ".y": "yacc",
+        ".y.in": "yacc"
+    }
 }

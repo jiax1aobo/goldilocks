@@ -7,6 +7,19 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Gsql As Sysdba Launch",
+            "program": "${workspaceFolder}/Gliese/home/bin/gsql",
+            "args": [
+                "sys",
+                "gliese",
+                "--as=sysdba",
+                // "--silent"
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Glsnr Launch",
             "program": "${workspaceFolder}/Gliese/home/bin/glsnr",
             "args": [
@@ -28,7 +41,7 @@
                 "sys",
                 "gliese",
                 "--as=sysdba",
-                "--silent"
+                // "--silent"
             ],
             "cwd": "${workspaceFolder}"
         }

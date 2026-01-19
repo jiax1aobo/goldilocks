@@ -19,6 +19,21 @@
 					"label": "一秒轮询一次"
 				}
 			]
+		},
+		{
+			"path": "layer/GlieseTool/gsql/dev/src/ztqMain.c",
+			"bookmarks": [
+				{
+					"line": 897,
+					"column": 27,
+					"label": "当前行没有处在行内注释、块注释、单引号字符串喝双引号字符串中"
+				},
+				{
+					"line": 901,
+					"column": 35,
+					"label": "一个分号就是完整的空 SQL 语句"
+				}
+			]
 		}
 	]
 }
