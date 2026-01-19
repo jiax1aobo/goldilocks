@@ -5,6 +5,7 @@ Gliese/
 CMakeFiles/
 lib/
 .cache/
+.cmake/
 compile_commands.json
 
 # files
